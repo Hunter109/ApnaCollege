@@ -9,7 +9,7 @@ This project is a clone of the Apna College website created for practice purpose
 - Sections for showcasing courses, events, testimonials, etc.
 - Footer with contact information and social media links.
 
-You can view a live demo [here](https://hunter109.github.io/ApnaCollge/).
+You can view a live demo [here](https://hunter109.github.io/ApnaCollege/)
 
 
 ## Technologies Used
@@ -30,7 +30,7 @@ https://github.com/Hunter109/ApnaCollege.git
 2. Navigate to the project directory:
 
 ```bash
-cd SD-Tech-Clone
+cd ApnaCollege
 ```
 
 3. Open the `index.html` file in your preferred web browser to view the website.
