@@ -9,6 +9,9 @@ This project is a clone of the Apna College website created for practice purpose
 - Sections for showcasing courses, events, testimonials, etc.
 - Footer with contact information and social media links.
 
+You can view a live demo [here](https://hunter109.github.io/ApnaCollge/).
+
+
 ## Technologies Used
 
 - HTML5
@@ -21,7 +24,7 @@ To get started with this project, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Hunter109/SD-Tech-Clone.git
+https://github.com/Hunter109/ApnaCollege.git
 ```
 
 2. Navigate to the project directory:
