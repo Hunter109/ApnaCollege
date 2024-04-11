@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --button: #6674cc;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 32rem;
+}
+
+
+
+
+.navbar .logo img {
+    height: 3rem;
+}
+
+/* for responsive hamburger  */
+.navbar .ham-burger {
+    display: none;
+}
+
+.navbar .ham-burger .menu-icon {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.navbar .nav-links>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-links>ul>li {
+    padding: 10px 20px;
+    font-weight: 500;
+    /* border: 1px solid red; */
+}
+
+.navbar .nav-links>ul>li:first-child {
+    background-color: var(--button);
+    border-radius: 5px;
+    border: 2px solid var(--button);
+}
+
+.navbar .nav-links>ul>li:first-child a {
+    color: white;
+}
+
+.navbar .nav-links>ul>li:last-child {
+    border-radius: 5px;
+    border: 2px solid var(--button);
+}
+
+.navbar .nav-links>ul>li:last-child a {
+    border-radius: 5px;
+    color: var(--button);
+}
+
+.nav-links .new-course i {
+    font-size: 12px;
+}
+
+.nav-links .new-course .course-dropdown {
+    position: absolute;
+    display: none;
+    top: 4rem;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px;
+}
+
+.new-course .course-dropdown ul li {
+    padding: 10px 20px;
+}
+
+.nav-links .new-course:hover .course-dropdown {
+    display: block;
+}
+
+
+/* main content style here  */
+main {
+    background-color: #e1e1e1;
+    height: 150rem;
+}
+
+
+
+
+/* responsive style  */
+
+@media only screen and (max-width: 428px) {
+
+    /* navbar responsive try  */
+    .navbar {
+        justify-content: space-between;
+        padding: 15px;
+        gap: 1rem;
+        border: 1px solid red;
+    }
+
+    .navbar .ham-burger {
+        display: block;
+    }
+
+    .navbar .logo img {
+        height: 2rem;
+    }
+
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .navbar .ham-burger:hover+.nav-links {
+        position: absolute;
+        top: 5rem;
+        left: 15rem;
+        display: block;
+    }
+
+    .navbar .ham-burger:hover+.nav-links ul {
+        top: 20px;
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (min-width:429px) and (max-width:834px) {
+    /* navbar for tablet  */
+
+    .navbar {
+        padding: 20px;
+        gap: 5rem;
+    }
+
+    .navbar .logo img {
+        height: 2.5rem;
+    }
+
+    .nav-links .new-course .course-dropdown {
+        position: absolute;
+        display: none;
+        top: 4rem;
+        right: 10rem;
+        border-radius: 3px;
+    }
+
+
+}
