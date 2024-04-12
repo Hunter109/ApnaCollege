@@ -26,6 +26,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: white;
 }
 
 
@@ -98,12 +99,18 @@ nav {
     position: absolute;
     display: none;
     top: 4rem;
+    right: 15rem;
     /* border: 1px solid red; */
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px;
 }
 
 .new-course .course-dropdown ul li {
     padding: 10px 20px;
+}
+
+.new-course .course-dropdown ul li a:hover {
+    color: #6674cc;
 }
 
 .nav-links .new-course:hover .course-dropdown {
@@ -117,13 +124,49 @@ nav {
 
 .image-with-text {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #e8f0fe;
 
-    background-image: linear-gradient(to right, white, #c6d2e8);
+    background-image: linear-gradient(to right, white, #c0d2f7);
     /* background-image: url("/assets/image/asset\ 20.jpeg"); */
     padding: 80px 0;
+}
+
+.image-with-text .text-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 29rem;
+    gap: 3rem;
+}
+
+.image-with-text .text-container .text-heading strong {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 78px;
+}
+
+.image-with-text .text-container .text-heading strong span {
+    color: #6674cc;
+}
+
+
+.image-with-text .text-container .explore-btn a {
+    background-color: #6674cc;
+    color: white;
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+
+}
+
+.image-with-text .text-container .explore-btn a i {
+    font-weight: 600;
+    font-size: 18px;
+
 }
 
 .image-with-text .image-container img {
@@ -171,6 +214,45 @@ nav {
         flex-direction: column;
     }
 
+    /* image with text  */
+
+    .image-with-text {
+        flex-direction: column;
+        /* background-image: url("/assets/image/asset\ 20.jpeg"); */
+        padding: 60px 0;
+        justify-content: space-around;
+        gap: 3rem;
+    }
+
+    .image-with-text .text-container {
+
+        width: 90vw;
+        gap: 2rem;
+        padding: 10px 20px;
+    }
+
+    .image-with-text .text-container .text-heading strong {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+    .image-with-text .text-container .explore-btn a {
+        padding: 15px 15px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 2px;
+
+    }
+
+    .image-with-text .text-container .explore-btn a i {
+        font-size: 14px;
+    }
+
+    .image-with-text .image-container img {
+        height: 17rem;
+    }
+
 
 }
 
@@ -194,6 +276,26 @@ nav {
         top: 4rem;
         right: 10rem;
         border-radius: 3px;
+    }
+
+    /* image with text  */
+
+
+    .image-with-text .text-container {
+
+        padding: 20px;
+
+    }
+
+    .image-with-text .text-container .text-heading strong {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+
+    .image-with-text .image-container img {
+        height: 20rem;
     }
 
 
