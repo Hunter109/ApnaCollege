@@ -173,8 +173,84 @@ nav {
     height: 27rem;
 }
 
+/* image with content end here  */
 
-/* main content end here  */
+
+.about .about-us {
+    background-image: url(../image/whyus.png);
+    background-position: bottom;
+    height: 40vh;
+    background-size: cover;
+    padding: 1rem;
+    /* background-color: #5e5eb3; */
+}
+
+.about .about-us h3 {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+
+
+}
+
+.about .about-us .sucess {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.about .about-us .sucess div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.about .about-us .sucess div span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about .about-us .sucess div i {
+    font-size: 30px;
+}
+
+/* new batch style  */
+.new-batch {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.new-batch div:first-child {
+    color: #6674cc;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.new-batch div:nth-child(2) {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.new-batch div:nth-child(3) {
+    font-size: 18px;
+}
+
+.new-batch div:nth-child(4) a {
+    background-color: #6674cc;
+    padding: 15px 40px;
+    color: white;
+    font-weight: 600;
+}
+
+
 
 
 
@@ -218,7 +294,6 @@ nav {
 
     .image-with-text {
         flex-direction: column;
-        /* background-image: url("/assets/image/asset\ 20.jpeg"); */
         padding: 60px 0;
         justify-content: space-around;
         gap: 3rem;
@@ -254,6 +329,38 @@ nav {
     }
 
 
+    /* about us style  */
+    .about .about-us {
+        height: 70vh;
+        background-position: left bottom;
+        padding: 25px 15px;
+    }
+
+    .about .about-us h3 {
+        font-size: 16px;
+        padding: 30px 10px;
+
+    }
+
+    .about .about-us .sucess {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .about .about-us .sucess div {
+        gap: 10px;
+    }
+
+    .about .about-us .sucess div span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .about .about-us .sucess div i {
+        font-size: 20px;
+    }
+
+
 }
 
 /* responsive style for table view  */
@@ -278,7 +385,7 @@ nav {
         border-radius: 3px;
     }
 
-    /* image with text  */
+    /* image with text style */
 
 
     .image-with-text .text-container {
