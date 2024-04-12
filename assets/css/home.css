@@ -20,6 +20,8 @@ a {
     color: black;
 }
 
+
+/* navbar style start here  */
 nav {
     position: sticky;
     top: 0;
@@ -108,17 +110,32 @@ nav {
     display: block;
 }
 
+/* navbar style end here  */
+
 
 /* main content style here  */
-main {
-    background-color: #e1e1e1;
-    height: 150rem;
+
+.image-with-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e8f0fe;
+
+    background-image: linear-gradient(to right, white, #c6d2e8);
+    /* background-image: url("/assets/image/asset\ 20.jpeg"); */
+    padding: 80px 0;
+}
+
+.image-with-text .image-container img {
+    height: 27rem;
 }
 
 
+/* main content end here  */
 
 
-/* responsive style  */
+
+/* responsive style for mobile view */
 
 @media only screen and (max-width: 428px) {
 
@@ -156,6 +173,8 @@ main {
 
 
 }
+
+/* responsive style for table view  */
 
 @media only screen and (min-width:429px) and (max-width:834px) {
     /* navbar for tablet  */
