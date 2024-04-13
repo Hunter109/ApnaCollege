@@ -308,6 +308,79 @@ nav {
     height: 20rem;
 }
 
+/* our mission style  */
+
+.mission h3 {
+    font-size: 22px;
+    text-align: center;
+    padding: 5rem;
+}
+
+.mission .mission-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.mission .mission-image img {
+    height: 40rem;
+}
+
+/* join us style  */
+.join-us {
+    background-color: #f8f8fd;
+    padding: 4rem;
+}
+
+.join-us h3 {
+    text-align: center;
+    color: #6674cc;
+    font-size: 22px;
+}
+
+.join-us .social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem;
+}
+
+.join-us .social-media div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.join-us .social-media i {
+    font-size: 2.5rem;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-instagram {
+    color: #e91e62;
+}
+
+.fa-telegram {
+    color: #11b3e9;
+}
+
+.join-us .social-media div :nth-child(2) {
+    font-size: 16px;
+}
+
+.join-us .social-media div :nth-child(3) {
+    color: #6674cc;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
 
 
 
@@ -453,6 +526,37 @@ nav {
         height: 8rem;
     }
 
+    /* our mission  */
+    .mission h3 {
+        font-size: 18px;
+        padding: 2rem;
+    }
+
+    .mission .mission-image {
+        margin-bottom: 2rem;
+    }
+
+    .mission .mission-image img {
+        height: 10rem;
+    }
+
+    /* join us  */
+    .join-us {
+        padding: 2rem;
+    }
+
+    .join-us h3 {
+        font-size: 18px;
+    }
+
+    .join-us .social-media {
+
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+
+
 }
 
 /* responsive style for table view  */
@@ -512,5 +616,19 @@ nav {
 
     .our-student .selected-student div img {
         height: 10rem;
+    }
+
+    /* our mission  */
+    .mission h3 {
+        font-size: 20px;
+        padding: 3rem;
+    }
+
+    .mission .mission-image {
+        margin-bottom: 3rem;
+    }
+
+    .mission .mission-image img {
+        height: 20rem;
     }
 }
