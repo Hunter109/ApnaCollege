@@ -11,7 +11,6 @@ This project is a clone of the Apna College website created for practice purpose
 
 You can view a live demo [here](https://hunter109.github.io/ApnaCollege/)
 
-
 ## Technologies Used
 
 - HTML5
@@ -39,7 +38,7 @@ That's it! You're ready to explore the Apna College website clone.
 
 ## Screenshots
 
-![Demo Screenshot](https://example.com/path/to/your/screenshot.png)
+![Demo Screenshot](./assets/image/demo.png)
 
 ## Contributing
 
