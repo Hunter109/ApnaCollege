@@ -381,7 +381,81 @@ nav {
 }
 
 
+footer {
+    padding: 5rem;
 
+}
+
+footer .footer-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 90vw;
+
+}
+
+footer .copyright {
+    padding: 1rem;
+    text-align: center;
+
+}
+
+footer .footer-col1 img {
+    height: 3rem;
+}
+
+footer .footer-col1,
+footer .footer-col2,
+footer .footer-col3,
+footer .footer-col4 {
+    width: 20rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    height: 15rem;
+}
+
+footer .footer-col1 div {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+
+}
+
+
+
+footer .footer-col2 h3,
+footer .footer-col3 h3,
+footer .footer-col4 h3 {
+    font-size: 18px;
+}
+
+footer .footer-col2 ul li,
+footer .footer-col3 ul li,
+footer .footer-col4 ul li {
+    padding: 7px 0;
+}
+
+footer .footer-col2 ul li i {
+    padding-right: 10px;
+    color: #6674cc;
+    font-size: 20px;
+}
+
+footer .footer-col3 ul li i {
+    color: #251d7f;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+footer .footer-col4 ul li i {
+    color: #262626;
+    font-size: 20px;
+    padding-left: 5px;
+}
 
 
 /* responsive style for mobile view */
@@ -555,6 +629,27 @@ nav {
         gap: 1.2rem;
     }
 
+    footer {
+        padding: 10px;
+
+    }
+
+
+    footer .footer-col {
+
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+    footer .footer-col1,
+    footer .footer-col2,
+    footer .footer-col3,
+    footer .footer-col4 {
+        width: 90vw;
+        height: 14rem;
+
+    }
 
 
 }
@@ -631,4 +726,17 @@ nav {
     .mission .mission-image img {
         height: 20rem;
     }
+
+
+    footer {
+        padding: 10px;
+    }
+
+    footer .footer-col {
+        flex-wrap: wrap;
+        width: 98vw;
+        flex-basis: 45vw;
+
+    }
+
 }
