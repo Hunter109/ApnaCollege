@@ -9,7 +9,7 @@ This project is a clone of the Apna College website created for practice purpose
 - Sections for showcasing courses, events, testimonials, etc.
 - Footer with contact information and social media links.
 
-You can view a live demo [here](https://hunter109.github.io/ApnaCollege/)
+You can see a live demo of this project [here](https://hunter109.github.io/ApnaCollege/)
 
 ## Technologies Used
 
